@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            student registration form
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1 align="center">student registration form</h1>
+            <nav align="center">
+                <a href="#personal">personal information</a>
+                <a href="#course">course information</a>
+                <a href="#address">address</a>
+            </nav>
+        </header>
+        <hr>
+        <form action="success.html">
+            <section id="personal">
+                <h2>personal information</h2>
+                <label>Fullname:</label>
+                <input type="text" name="name" id="name">
+                <br><br>
+                <label>Email:</label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <label>Password:</label>
+                <input type="password" name="password" id="password">
+                <br><br>
+                <label>dob:</label>
+                <input type="date" name="date">
+                <br><br>
+                <label>gender</label>
+                <br>
+                <input type="radio" name="gender" id="male">male
+                <br>
+                <input type="radio" name="gender" id="female">Female
+                <br>
+                <input type="radio" name="gender" id="transgender">transgender
+            </section>
+            <hr>
+            <section id="course">
+                <h2>course information</h2>
+                <label>select course:</label>
+                <select name="course">
+                    <option>select course</option>
+                    <option>html&css</option>
+                    <option>javacsript</option>
+                    <option>python</option>
+                    <option>react js</option>
+                </select>
+                <br>
+                <br>
+                <label>Skills:</label>
+                <br>
+                <input type="checkbox" name="skill">html
+                <br>
+                <input type="checkbox" name="skill">css
+                <br>
+                <input type="checkbox" name="skill">javacsript
+                <br>
+                <input type="checkbox" name="skill">python
+            </section>
+            <hr>
+            <section id="address">
+                <h2>address</h2>
+                <textarea name="address" rows="5" cols="40" placeholder="enter your address"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="register">
+                <input type="reset" value="clear">
+            </section>
+        </form>
+        <footer>
+            <hr>
+            <p align="center">
+                2026 student registration.
+            </p>
+        </footer>
+    </body>
+</html>

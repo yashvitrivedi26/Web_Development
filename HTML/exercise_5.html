@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Matrimony Registration</title>
+    </head>
+    <body>
+        <h1 align="center">Find Your Perfect Match</h1>
+        <h3 align="center">Register free and start your journey to a happy marriage</h3>
+        <hr>
+        <form action="success.html" method="post">
+            <table border="1" align="center" width="60%" cellpadding="10">
+                <tr>
+                    <th colspan="2">Create Your Profile</th>
+                </tr>
+                <tr>
+                    <td width="35%">Profile Created For</td>
+                    <td>
+                        <select name="profilefor" id="profilefor" required>
+                            <option value="">Select</option>
+                            <option value="myself">Myself</option>
+                            <option value="son">Son</option>
+                            <option value="daughter">Daughter</option>
+                            <option value="brother">Brother</option>
+                            <option value="sister">Sister</option>
+                            <option value="friend">Friend</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Full Name</td>
+                    <td><input type="text" name="name" id="name" placeholder="enter your full name" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male" required>Male
+                        <input type="radio" name="gender" id="female" value="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" name="dob" id="dob" required></td>
+                </tr>
+                <tr>
+                    <td>Marital Status</td>
+                    <td>
+                        <input type="radio" name="status" id="never" value="never married" required>Never Married
+                        <br>
+                        <input type="radio" name="status" id="divorced" value="divorced">Divorced
+                        <br>
+                        <input type="radio" name="status" id="widowed" value="widowed">Widowed
+                    </td>
+                </tr>
+                <tr>
+                    <td>Religion</td>
+                    <td>
+                        <select name="religion" id="religion" required>
+                            <option value="">Select Religion</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="muslim">Muslim</option>
+                            <option value="christian">Christian</option>
+                            <option value="sikh">Sikh</option>
+                            <option value="jain">Jain</option>
+                            <option value="buddhist">Buddhist</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mother Tongue</td>
+                    <td>
+                        <select name="language" id="language" required>
+                            <option value="">Select Language</option>
+                            <option value="hindi">Hindi</option>
+                            <option value="gujarati">Gujarati</option>
+                            <option value="marathi">Marathi</option>
+                            <option value="tamil">Tamil</option>
+                            <option value="bengali">Bengali</option>
+                            <option value="punjabi">Punjabi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Highest Education</td>
+                    <td>
+                        <select name="education" id="education" required>
+                            <option value="">Select Education</option>
+                            <option value="graduate">Graduate</option>
+                            <option value="postgraduate">Post Graduate</option>
+                            <option value="doctorate">Doctorate</option>
+                            <option value="diploma">Diploma</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Occupation</td>
+                    <td><input type="text" name="occupation" id="occupation" placeholder="enter your occupation"></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><input type="text" name="city" id="city" placeholder="enter your city" required></td>
+                </tr>
+                <tr>
+                    <td>Email Address</td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="tel" name="mobile" id="mobile" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password" id="password" required></td>
+                </tr>
+                <tr>
+                    <td>About Me</td>
+                    <td><textarea name="about" id="about" rows="5" cols="30" placeholder="write something about yourself"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="terms" id="terms" required>I agree to the Terms and Privacy Policy
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Register Free">
+                        <input type="reset" value="Clear All">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">Already a member? <a href="20_login.html">Login</a></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

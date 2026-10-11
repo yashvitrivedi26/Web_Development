@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>hotel booking systems</title>
+    </head>
+    <body>
+        <header>
+            <h1 align="center">royal palace hotel</h1>
+            <nav align="center">
+                <a href="#rooms">rooms</a>
+                <a href="#guest">guest details</a>
+                <a href="#selection">room selection</a>
+                <a href="#services">additional services</a>
+            </nav>
+        </header>
+        <hr>
+        <section id="rooms">
+            <h2>Rooms information</h2>
+            <table border="1" cellpadding="10" cellspacing="5">
+                <tr>
+                    <th>Room type</th>
+                    <th>capacity</th>
+                    <th>price/night</th>
+                    <th>facilities</th>
+                </tr>
+                <tr>
+                    <td>standard</td>
+                    <td>2 persons</td>
+                    <td>2,500</td>
+                    <td>wifi,tv</td>
+                </tr>
+                <tr>
+                    <td>deluxe</td>
+                    <td>3 persons</td>
+                    <td>4,000</td>
+                    <td>wifi,tv</td>
+                </tr>
+                <tr>
+                    <td>suite</td>
+                    <td>5 persons</td>
+                    <td>7,500</td>
+                    <td>wifi,tv,ac,breakfast</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <form>
+            <section id="guest">
+                <h2>Guest details</h2>
+                <label>Full name:</label>
+                <input type="text" required>
+                <br><br>
+                <label>Email:</label>
+                <input type="email" required>
+                <br><br>
+                <label>mobile no:</label>
+                <input type="tel" required>
+                <br><br>
+                <label>check-in:</label>
+                <input type="date" required>
+                <br><br>
+                <label>check-out:</label>
+                <input type="date" required>
+                <br><br>
+                <label>Adults</label>
+                <input type="number" min="1" max="5">
+                <br><br>
+                <label>childrens:</label>
+                <input type="number" min="0" max="3" required>
+            </section>
+            <hr>
+            <section id="selection">
+                <h2>Room selection</h2>
+                <select>
+                    <option>select room</option>
+                    <option>standard</option>
+                    <option>deluxe</option>
+                    <option>suite</option>
+                </select>
+            </section>
+            <hr>
+            <section id="services">
+                <h2>Additional services</h2>
+                <input type="checkbox">breakfast
+                <br>
+                <input type="checkbox">Airport pickup
+                <br>
+                <input type="checkbox">laundry
+                <br>
+                <input type="checkbox">extra bed
+                <br><br>
+                <input type="submit" value="book now">
+                <input type="reset" value="clear all">
+            </section>
+        </form>
+        <footer>
+            <hr>
+            <p align="center">
+                2026 royal palace hotel.
+            </p>
+        </footer>
+    </body>
+</html>
